@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/mynews/static/css/main.9bd1156e.chunk.css",
+    "main.js": "/mynews/static/js/main.495415f3.chunk.js",
+    "main.js.map": "/mynews/static/js/main.495415f3.chunk.js.map",
+    "runtime-main.js": "/mynews/static/js/runtime-main.ab292514.js",
+    "runtime-main.js.map": "/mynews/static/js/runtime-main.ab292514.js.map",
+    "static/js/2.7ff0fc70.chunk.js": "/mynews/static/js/2.7ff0fc70.chunk.js",
+    "static/js/2.7ff0fc70.chunk.js.map": "/mynews/static/js/2.7ff0fc70.chunk.js.map",
+    "static/js/3.09694087.chunk.js": "/mynews/static/js/3.09694087.chunk.js",
+    "static/js/3.09694087.chunk.js.map": "/mynews/static/js/3.09694087.chunk.js.map",
+    "static/js/4.df6344d8.chunk.js": "/mynews/static/js/4.df6344d8.chunk.js",
+    "static/js/4.df6344d8.chunk.js.map": "/mynews/static/js/4.df6344d8.chunk.js.map",
+    "index.html": "/mynews/index.html",
+    "precache-manifest.58b518f01ea251ee24637bec4f1e2121.js": "/mynews/precache-manifest.58b518f01ea251ee24637bec4f1e2121.js",
+    "service-worker.js": "/mynews/service-worker.js",
+    "static/css/main.9bd1156e.chunk.css.map": "/mynews/static/css/main.9bd1156e.chunk.css.map",
+    "static/js/2.7ff0fc70.chunk.js.LICENSE.txt": "/mynews/static/js/2.7ff0fc70.chunk.js.LICENSE.txt",
+    "static/media/bs.jpg": "/mynews/static/media/bs.5bed0f65.jpg",
+    "static/media/dna.png": "/mynews/static/media/dna.27d9aa9e.png",
+    "static/media/et.jpg": "/mynews/static/media/et.0e814824.jpg",
+    "static/media/et.cms": "/mynews/static/media/et.fc75d28f.cms",
+    "static/media/ht.jpg": "/mynews/static/media/ht.fb0f5e3c.jpg",
+    "static/media/it.png": "/mynews/static/media/it.cc89ebdd.png",
+    "static/media/ol.png": "/mynews/static/media/ol.ae37ff39.png",
+    "static/media/ol.jpg": "/mynews/static/media/ol.c35a23f8.jpg",
+    "static/media/th.png": "/mynews/static/media/th.95234c47.png",
+    "static/media/thehindu-logo.png": "/mynews/static/media/thehindu-logo.a23b91f2.png",
+    "static/media/zeenews.jpg": "/mynews/static/media/zeenews.7bc9888c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab292514.js",
+    "static/js/2.7ff0fc70.chunk.js",
+    "static/css/main.9bd1156e.chunk.css",
+    "static/js/main.495415f3.chunk.js"
+  ]
+}
