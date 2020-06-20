@@ -1,1 +1,1 @@
-worker: node src/App.js
+worker: node src/Homefetchxml.js
