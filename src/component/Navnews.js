@@ -10,8 +10,8 @@ function Navnews() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto" style={{ fontSize: "17px" }}>
-          <Nav.Link href="/newsall/home">Home</Nav.Link>
-          <Nav.Link href="/newsall/top-stories">Top Stories</Nav.Link>
+          <Nav.Link href="/home">Home</Nav.Link>
+          <Nav.Link href="/top-stories">Top Stories</Nav.Link>
           <Nav.Link href="/technology">Technology</Nav.Link>
           <Nav.Link href="/opinion">Opinion</Nav.Link>
           <Nav.Link href="/technology">Sports</Nav.Link>
