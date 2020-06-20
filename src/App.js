@@ -22,7 +22,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/technology" component={Technology} />
         <Route path="/opinion" exact component={Opinion} />
-        <Route path="/home" exact component={Homefetchxml} />
+        <Route path="/newsall/home" exact component={Homefetchxml} />
         <Route path="/top-stories" exact component={Topstoriesfetchxml} />
       </Router>
     </div>
