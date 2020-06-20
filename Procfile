@@ -1,1 +1,1 @@
-worker: node src/component/Home/Homefetchxml/.js
+worker: node src/component/Home/Homefetchxml.js
