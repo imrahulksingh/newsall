@@ -1,0 +1,89 @@
+body {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.nav-bar {
+  height: 50px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: flex;
+  align-content: center;
+  justify-content: center; */
+}
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-link li {
+  margin: 0 2rem;
+  color: white;
+  list-style: none;
+  text-decoration-line: none;
+  outline: none;
+}
+/* .image-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  margin: 0 15px;
+}
+.image-div span {
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  border: 1px solid black;
+  margin: 2px 2px;
+} */
+.shop-image img {
+  max-height: auto;
+  max-width: 100%;
+  /* width: 35rem;
+  height: 22rem; */
+  border: 1px solid black;
+  margin: 5px 5px;
+}
+.container-right {
+  height: 50vh;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  overflow-y: hidden;
+}
+.container-right:hover {
+  overflow-y: scroll;
+}
+.col-top-stories {
+  height: 420px;
+  overflow-y: hidden;
+}
+.col-top-stories:hover {
+  overflow-y: scroll;
+}
+/* //custom scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(247, 247, 247);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

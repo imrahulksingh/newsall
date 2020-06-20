@@ -1,0 +1,67 @@
+{
+  "title": "Real time news API",
+  "topstories": [
+    {
+      "newsapi": "/rssfeedstopstories.cms",
+      "tag": "Economic Times",
+      "category": "top-stories-home"
+    },
+    {
+      "newsapi": "/rss/topnews/rssfeed.xml",
+      "tag": "Hindustan Times",
+      "category": "top-stories-home"
+    },
+    {
+      "newsapi": "/rss/news",
+      "tag": "livemint",
+      "category": "top-stories-home"
+    },
+    {
+      "newsapi": "/feeds/latest.xml",
+      "tag": "DNA India",
+      "category": "top-stories-home"
+    },
+    {
+      "newsapi": "rss/india-national-news.xml",
+      "tag": "Zee News",
+      "category": "top-stories-home"
+    },
+    {
+      "newsapi": "/rss/1206584",
+      "tag": "India Today",
+      "category": "top-stories"
+    },
+    {
+      "newsapi": "/rss-feeds",
+      "tag": "DDnews",
+      "category": "top-stories-home"
+    },
+    {
+      "newsapi": "/rss/latest.rss",
+      "tag": "Business Standard",
+      "category": "top-stories-home"
+    }
+  ],
+  "opinion": [
+    {
+      "newsapi": "/opinion/feeder/default.rss",
+      "tag": "The Hindu",
+      "category": "opinion-home"
+    },
+    {
+      "newsapi": "/rss/subsection/5",
+      "tag": "Outlook",
+      "category": "opinion-home"
+    },
+    {
+      "newsapi": "/opinion/rssfeeds/897228639.cms",
+      "tag": "Economic Times",
+      "category": "opinion-home"
+    },
+    {
+      "newsapi": "/rss/opinion/rssfeed.xml",
+      "tag": "Hindustan Times",
+      "category": "opinion-home"
+    }
+  ]
+}
