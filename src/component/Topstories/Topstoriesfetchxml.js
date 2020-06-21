@@ -40,7 +40,7 @@ function Topstoriesfetchxml() {
         .get(`${rtapi}`, {
           headers: {
             "Access-Control-Allow-Credentials": true,
-            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Origin": "https://imrahulksingh.github.io",
           },
         })
         .then((response) => response.data);
