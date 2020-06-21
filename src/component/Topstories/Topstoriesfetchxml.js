@@ -40,8 +40,7 @@ function Topstoriesfetchxml() {
         method: "GET",
         mode: "no-cors",
         headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "https://imrahulksingh.github.io",
           "Access-Control-Allow-Methods": "GET, PUT, POST, DELETE, OPTIONS",
         },
       }).then((response) => response.data);
