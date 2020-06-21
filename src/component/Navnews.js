@@ -16,7 +16,7 @@ function Navnews() {
           <Nav.Link href="/opinion">Opinion</Nav.Link>
           <Nav.Link href="/technology">Sports</Nav.Link>
           <Nav.Link href="/technology">Business</Nav.Link>
-          <Nav.Link href="/technology">Politics</Nav.Link>
+          <Nav.Link href="/graph-news">Figures</Nav.Link>
           <Nav.Link href="/technology">World</Nav.Link>
           <Nav.Link href="/technology">Entertainment</Nav.Link>
           <NavDropdown title="Category" id="collasible-nav-dropdown">

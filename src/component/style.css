@@ -31,18 +31,7 @@ body {
   text-decoration-line: none;
   outline: none;
 }
-/* .image-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr auto;
-  margin: 0 15px;
-}
-.image-div span {
-  display: flex;
-  align-items: center;
-  width: 15rem;
-  border: 1px solid black;
-  margin: 2px 2px;
-} */
+
 .shop-image img {
   max-height: auto;
   max-width: 100%;
