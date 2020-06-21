@@ -36,14 +36,13 @@ function Topstoriesfetchxml() {
       let rtapi = newsapi.topstories[i].newsapi;
       //console.log(rtapi);
       //rtapi = await axios.get(`${rtapi}`).then((response) => response.data);
-      rtapi = await fetch(`${rtapi}`, {
-        method: "GET",
-        mode: "no-cors",
+      rtapi = await axios(`${rtapi}`, {
         headers: {
-          "Access-Control-Allow-Origin": "https://imrahulksingh.github.io",
+          "Access-Control-Allow-Origin":
+            "https://imrahulksingh.github.io/newsall",
           "Access-Control-Allow-Methods": "GET, PUT, POST, DELETE, OPTIONS",
         },
-      }).then((response) => response.json());
+      }).then((response) => response.data);
 
       let item1 = parseXML(rtapi);
 
