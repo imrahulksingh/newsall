@@ -7,40 +7,40 @@ module.exports = function (app) {
   app.use(
     createProxyMiddleware("/rssfeedstopstories.cms", {
       target: "https://economictimes.indiatimes.com",
-      source: false,
-      changeOrigin: true,
+      // source: false,
+      // changeOrigin: true,
     })
   );
   //2
   app.use(
     createProxyMiddleware("/rss/1206584", {
       target: "https://www.indiatoday.in",
-      source: false,
-      changeOrigin: true,
+      // source: false,
+      // changeOrigin: true,
     })
   );
   //3
   app.use(
     createProxyMiddleware("/rss/topnews", {
       target: "https://www.hindustantimes.com",
-      source: false,
-      changeOrigin: true,
+      // source: false,
+      // changeOrigin: true,
     })
   );
   //4
   app.use(
     createProxyMiddleware("/rss/news", {
       target: "https://www.livemint.com",
-      source: false,
-      changeOrigin: true,
+      // source: false,
+      // changeOrigin: true,
     })
   );
   //5
   app.use(
     createProxyMiddleware("/feeds", {
       target: "https://www.dnaindia.com",
-      source: false,
-      changeOrigin: true,
+      // source: false,
+      // changeOrigin: true,
     })
   );
   //6
@@ -77,8 +77,8 @@ module.exports = function (app) {
   app.use(
     createProxyMiddleware("/rss/latest.rss", {
       target: "https://www.business-standard.com/",
-      source: false,
-      changeOrigin: true,
+      // source: false,
+      // changeOrigin: true,
     })
   );
   // app.use(
