@@ -2,7 +2,7 @@
   "title": "Real time news API",
   "topstories": [
     {
-      "newsapi": "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
+      "newsapi": "http://cors.io/?https://economictimes.indiatimes.com/rssfeedstopstories.cms",
       "tag": "Economic Times",
       "category": "top-stories-home"
     },
