@@ -35,7 +35,17 @@ function Topstoriesfetchxml() {
       console.log(newsapi.topstories[i].tag);
       let rtapi = newsapi.topstories[i].newsapi;
       //console.log(rtapi);
-      rtapi = await axios.get(`${rtapi}`).then((response) => response.data);
+      //rtapi = await axios.get(`${rtapi}`).then((response) => response.data);
+      rtapi = await axios(`${rtapi}`, {
+        method: "GET",
+        mode: "no-cors",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Methods": "GET, PUT, POST, DELETE, OPTIONS",
+        },
+      }).then((response) => response.data);
+
       let item1 = parseXML(rtapi);
 
       if (newsapi.topstories[i].tag === "Economic Times") {
