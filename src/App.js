@@ -3,7 +3,7 @@ import "./App.css";
 import Navnews from "./component/Navnews";
 import About from "./component/About";
 import ItemDetails from "./component/ItemDetails";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Technology from "./component/Technology";
 import Fetchapi from "./component/Fetchapi";
 import Homefetchxml from "./component/Home/Homefetchxml";
